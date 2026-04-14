@@ -264,7 +264,7 @@
           <p><strong>Forma:</strong> Bilobulada, hendidura central. <br> <strong>Razón:</strong> Reduce resistencia al viento y maximiza captación de luz en claros. </p>
         </div>
         <div class="leaf-img">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Bauhinia_variegata_leaf.jpg/640px-Bauhinia_variegata_leaf.jpg" alt="Hoja pata de vaca" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Bauhinia_variegata_leaf.jpg/640px-Bauhinia_variegata_leaf.jpg" alt="Hoja pata de vaca" loading="lazy">
         </div>
       </div>
       <div class="desc-section">
@@ -317,7 +317,7 @@
           <p><strong>Forma:</strong> Acorazonada (cordiforme), margen ondulado. <br> <strong>Razón:</strong> La forma acorazonada optimiza la captación de luz en trepadoras.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Antigonon_leptopus1.JPG/640px-Antigonon_leptopus1.JPG" alt="Hoja coralina" loading="lazy">
+          <img src="https://www.ipmimages.org/images/768x512/5444905.jpg" alt="Hoja coralina" loading="lazy">
         </div>
       </div>
       <div class="desc-section">
@@ -343,7 +343,7 @@
           <p><strong>Forma:</strong> Obovada, grande, coriácea. <br> <strong>Razón:</strong> Hojas grandes para sombra; se tornan rojas antes de caer (antocianinas).</p>
         </div>
         <div class="leaf-img">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Terminalia_catappa_leaf.jpg/640px-Terminalia_catappa_leaf.jpg" alt="Hoja almendro" loading="lazy">
+          <img src="https://sweetgum.nybg.org/science/vh/images/irn/152/152223.jpg" alt="Hoja almendro" loading="lazy">
         </div>
       </div>
       <div class="desc-section">
@@ -369,7 +369,7 @@
           <p><strong>Forma:</strong> Compuesta, pinnada, folíolos ovados brillantes. <br> <strong>Razón:</strong> Disposición alterna para maximizar luz en setos densos.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Murraya_paniculata_leaf.jpg/640px-Murraya_paniculata_leaf.jpg" alt="Hoja muralla" loading="lazy">
+          <img src="https://calphotos.berkeley.edu/imgs/128x192/0000_0000/0107/1106.jpeg" alt="Hoja muralla" loading="lazy">
         </div>
       </div>
       <div class="desc-section">
@@ -395,7 +395,7 @@
           <p><strong>Forma:</strong> Ovado-elíptica, ápice acuminado, brillante. <br> <strong>Razón:</strong> Punta alargada (goteador) para escurrir agua en climas lluviosos.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Ficus_benjamina_leaf.jpg/640px-Ficus_benjamina_leaf.jpg" alt="Hoja ficus" loading="lazy">
+          <img src="https://sweetgum.nybg.org/science/vh/images/irn/276/276117.jpg" alt="Hoja ficus" loading="lazy">
         </div>
       </div>
       <div class="desc-section">
@@ -421,7 +421,7 @@
           <p><strong>Forma:</strong> Elíptica, opuesta, nervaduras marcadas, aromática. <br> <strong>Razón:</strong> Aceites esenciales como defensa contra herbívoros.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Psidium_guajava_leaf.jpg/640px-Psidium_guajava_leaf.jpg" alt="Hoja guayaba" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Psidium_guajava_leaves_LR.jpg/640px-Psidium_guajava_leaves_LR.jpg" alt="Hoja guayaba" loading="lazy">
         </div>
       </div>
       <div class="desc-section">
@@ -447,7 +447,7 @@
           <p><strong>Forma:</strong> Lanceolada, larga, color rojizo/variegado. <br> <strong>Razón:</strong> Pigmentación por antocianinas; adaptación a luz intensa.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Cordyline_fruticosa_leaf.jpg/640px-Cordyline_fruticosa_leaf.jpg" alt="Hoja cordyline" loading="lazy">
+          <img src="https://www.morphbank.net/images/thumb/451/451256.jpg" alt="Hoja cordyline" loading="lazy">
         </div>
       </div>
       <div class="desc-section">
@@ -473,7 +473,7 @@
           <p><strong>Forma:</strong> Escamas diminutas en verticilos; las ramillas parecen agujas de pino. <br> <strong>Razón:</strong> Reducción foliar para evitar pérdida de agua en zonas costeras.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Casuarina_equisetifolia_branchlets.jpg/640px-Casuarina_equisetifolia_branchlets.jpg" alt="Ramillas casuarina" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Branchlets_of_Casuarina_equisetifolia.pdf/page1-640px-Branchlets_of_Casuarina_equisetifolia.pdf.jpg" alt="Ramillas casuarina" loading="lazy">
         </div>
       </div>
       <div class="desc-section">
@@ -499,7 +499,7 @@
           <p><strong>Forma:</strong> Largas, lanceoladas, borde ondulado, brillantes. <br> <strong>Razón:</strong> Forma colgante para reducir calor y autosombra.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Polyalthia_longifolia_leaf.jpg/640px-Polyalthia_longifolia_leaf.jpg" alt="Hoja falsa ashoka" loading="lazy">
+          <img src="https://www.biolib.cz/IMG/GAL/BIG/29354.jpg" alt="Hoja falsa ashoka" loading="lazy">
         </div>
       </div>
       <div class="desc-section">
@@ -525,7 +525,7 @@
           <p><strong>Forma:</strong> Lineal, estrecha, color púrpura intenso. <br> <strong>Razón:</strong> Pigmentación para protección UV en ambientes abiertos.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Pennisetum_setaceum_Rubrum_leaf.jpg/640px-Pennisetum_setaceum_Rubrum_leaf.jpg" alt="Zacate morado" loading="lazy">
+          <img src="https://c1.alamy.com/thumbs/2AN0CMW/pennisetum-setaceum-rubrum-violet-herbe-fontaine-2AN0CMW.jpg" alt="Zacate morado" loading="lazy">
         </div>
       </div>
       <div class="desc-section">
@@ -551,7 +551,7 @@
           <p><strong>Forma:</strong> Ovada, ápice agudo, verde brillante. <br> <strong>Razón:</strong> Hojas pequeñas en zonas secas; brácteas coloridas para atraer polinizadores.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Bougainvillea_glabra_leaf.jpg/640px-Bougainvillea_glabra_leaf.jpg" alt="Hoja veranera" loading="lazy">
+          <img src="https://ninos.kiddle.co/images/thumb/9/91/Bougainvillea_glabra.JPG/320px-Bougainvillea_glabra.JPG" alt="Hoja veranera" loading="lazy">
         </div>
       </div>
       <div class="desc-section">
@@ -577,7 +577,7 @@
           <p><strong>Forma:</strong> Acicular, en fascículos. <br> <strong>Razón:</strong> Reduce superficie transpirante, adaptada a climas fríos/secos.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Pinus_cembra_leaves.jpg/640px-Pinus_cembra_leaves.jpg" alt="Acículas de pino" loading="lazy">
+          <img src="https://stri.discoverlife.org/MP/20q?img=JPG&path=I_TN/USGA/USGA/USGA36109.jpg&res=320x240" alt="Acículas de pino" loading="lazy">
         </div>
       </div>
       <div class="desc-section">
