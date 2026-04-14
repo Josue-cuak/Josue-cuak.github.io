@@ -1,4 +1,3 @@
-# Josue-cuak.github.io
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -9,9 +8,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,400&family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
-  <!-- AOS (Animate On Scroll) para efectos al desplazarse -->
+  <!-- AOS (Animate On Scroll) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-  <!-- Font Awesome para iconos decorativos -->
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
     * {
@@ -21,7 +20,7 @@
     }
 
     body {
-      background-color: #0a2f1f; /* verde oscuro profundo */
+      background-color: #0a2f1f;
       background-image: radial-gradient(circle at 20% 30%, #1a4a2e 0%, #052010 100%);
       color: #f0f2e9;
       font-family: 'Quicksand', sans-serif;
@@ -30,13 +29,11 @@
       min-height: 100vh;
     }
 
-    /* Contenedor elegante */
     .wrapper {
       max-width: 1600px;
       margin: 0 auto;
     }
 
-    /* Encabezado */
     .hero {
       text-align: center;
       margin-bottom: 4rem;
@@ -72,14 +69,12 @@
       margin: 0 10px;
     }
 
-    /* Grid de tarjetas */
     .plant-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
       gap: 2.2rem;
     }
 
-    /* Tarjeta con efecto vidrio y profundidad */
     .plant-card {
       background: rgba(20, 45, 30, 0.55);
       backdrop-filter: blur(12px);
@@ -99,7 +94,6 @@
       border-color: #a6c89b55;
     }
 
-    /* Títulos */
     .card-title {
       font-family: 'Playfair Display', serif;
       font-size: 2.1rem;
@@ -122,7 +116,6 @@
       padding-left: 24px;
     }
 
-    /* Sección de hoja (con imagen) */
     .leaf-section {
       display: flex;
       gap: 16px;
@@ -168,7 +161,6 @@
       transform: scale(1.08);
     }
 
-    /* Imagen del árbol / planta */
     .tree-img {
       margin: 20px 0 16px;
       border-radius: 32px;
@@ -190,7 +182,6 @@
       transform: scale(1.03);
     }
 
-    /* Fruto y descripción */
     .fruit-section, .desc-section {
       margin-top: 10px;
     }
@@ -201,17 +192,6 @@
       font-size: 1rem;
     }
 
-    .fruit-badge {
-      background: #4f3f1f60;
-      padding: 6px 12px;
-      border-radius: 40px;
-      display: inline-block;
-      margin-top: 6px;
-      backdrop-filter: blur(5px);
-      border: 1px solid #b8a86b;
-    }
-
-    /* Footer sutil */
     .footer-note {
       margin-top: 5rem;
       text-align: center;
@@ -219,7 +199,6 @@
       font-size: 0.95rem;
     }
 
-    /* Efectos de scroll ya aplicados con AOS */
     [data-aos] {
       transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
     }
@@ -236,7 +215,6 @@
       color: #c6b27c;
     }
 
-    /* Responsive */
     @media (max-width: 600px) {
       body { padding: 1.2rem 0.8rem; }
       .hero h1 { font-size: 2.5rem; }
@@ -254,361 +232,354 @@
   <!-- GRID DE PLANTAS -->
   <div class="plant-grid">
     
-    <!-- 1. PATA DE VACA / ÁRBOL ORQUÍDEA -->
-    <div class="plant-card" data-aos="fade-up" data-aos-delay="50">
+    <!-- 1. PATA DE VACA -->
+    <div class="plant-card" data-aos="fade-up">
       <div class="card-title">Pata de Vaca</div>
       <div class="scientific-name"><i class="fas fa-tag"></i> Bauhinia variegata</div>
       <div class="leaf-section">
         <div class="leaf-info">
           <h3><i class="fas fa-leaf"></i> Hoja</h3>
-          <p><strong>Forma:</strong> Bilobulada, hendidura central. <br> <strong>Razón:</strong> Reduce resistencia al viento y maximiza captación de luz en claros. </p>
+          <p><strong>Forma:</strong> Bilobulada. <br><strong>Razón:</strong> Reduce resistencia al viento.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Bauhinia_variegata_leaf.jpg/640px-Bauhinia_variegata_leaf.jpg" alt="Hoja pata de vaca" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Bauhinia_variegata_leaf.jpg" alt="Hoja pata de vaca" onerror="this.src='https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=200'">
         </div>
       </div>
       <div class="desc-section">
         <h3><i class="fas fa-tree"></i> Descripción</h3>
-        <p>Árbol caducifolio de copa extendida, flores grandes similares a orquídeas, en tonos rosa, púrpura o blanco. Muy ornamental.</p>
+        <p>Árbol caducifolio, flores grandes similares a orquídeas, en tonos rosa o púrpura.</p>
       </div>
       <div class="fruit-section">
         <h3><i class="fas fa-apple-alt"></i> Fruto</h3>
-        <p>Legumbre alargada, aplanada, de color marrón, con varias semillas. No es comestible.</p>
+        <p>Legumbre alargada y aplanada, color marrón.</p>
       </div>
       <div class="tree-img">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bauhinia_variegata_tree.jpg/640px-Bauhinia_variegata_tree.jpg" alt="Árbol orquídea" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Bauhinia_variegata_tree.jpg" alt="Árbol orquídea" onerror="this.src='https://images.pexels.com/photos/164024/pexels-photo-164024.jpeg?auto=compress&cs=tinysrgb&w=400'">
         <div class="img-caption"><i class="fas fa-camera"></i> Bauhinia variegata</div>
       </div>
     </div>
 
-    <!-- 2. CORALILLO (Hamelia patens) -->
-    <div class="plant-card" data-aos="fade-up" data-aos-delay="100">
+    <!-- 2. CORALILLO -->
+    <div class="plant-card" data-aos="fade-up">
       <div class="card-title">Coralillo</div>
       <div class="scientific-name"><i class="fas fa-tag"></i> Hamelia patens</div>
       <div class="leaf-section">
         <div class="leaf-info">
           <h3><i class="fas fa-leaf"></i> Hoja</h3>
-          <p><strong>Forma:</strong> Elíptica a ovada, nervaduras rojizas. <br> <strong>Razón:</strong> Coloración por antocianinas para protección solar y atraer polinizadores.</p>
+          <p><strong>Forma:</strong> Elíptica, nervaduras rojizas.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Hamelia_patens_leaf.jpg/640px-Hamelia_patens_leaf.jpg" alt="Hoja coralillo" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Hamelia_patens_leaf.jpg" alt="Hoja coralillo" onerror="this.src='https://images.pexels.com/photos/130576/pexels-photo-130576.jpeg?auto=compress&cs=tinysrgb&w=200'">
         </div>
       </div>
       <div class="desc-section">
         <h3><i class="fas fa-tree"></i> Descripción</h3>
-        <p>Arbusto perenne de rápido crecimiento, flores tubulares rojo-anaranjadas que atraen colibríes. Ideal para setos.</p>
+        <p>Arbusto perenne, flores tubulares rojo-anaranjadas que atraen colibríes.</p>
       </div>
       <div class="fruit-section">
         <h3><i class="fas fa-apple-alt"></i> Fruto</h3>
-        <p>Bayas pequeñas que pasan de rojo a negro, jugosas, alimento de aves. </p>
+        <p>Bayas pequeñas de rojo a negro.</p>
       </div>
       <div class="tree-img">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Hamelia_patens_plant.jpg/640px-Hamelia_patens_plant.jpg" alt="Coralillo arbusto" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Hamelia_patens_plant.jpg" alt="Coralillo arbusto" onerror="this.src='https://images.pexels.com/photos/2132171/pexels-photo-2132171.jpeg?auto=compress&cs=tinysrgb&w=400'">
       </div>
     </div>
 
     <!-- 3. ENREDADERA CORALINA -->
-    <div class="plant-card" data-aos="fade-up" data-aos-delay="150">
+    <div class="plant-card" data-aos="fade-up">
       <div class="card-title">Enredadera Coralina</div>
       <div class="scientific-name"><i class="fas fa-tag"></i> Antigonon leptopus</div>
       <div class="leaf-section">
         <div class="leaf-info">
           <h3><i class="fas fa-leaf"></i> Hoja</h3>
-          <p><strong>Forma:</strong> Acorazonada (cordiforme), margen ondulado. <br> <strong>Razón:</strong> La forma acorazonada optimiza la captación de luz en trepadoras.</p>
+          <p><strong>Forma:</strong> Acorazonada, margen ondulado.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://www.ipmimages.org/images/768x512/5444905.jpg" alt="Hoja coralina" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Antigonon_leptopus1.JPG" alt="Hoja coralina" onerror="this.src='https://images.pexels.com/photos/1074646/pexels-photo-1074646.jpeg?auto=compress&cs=tinysrgb&w=200'">
         </div>
       </div>
       <div class="desc-section">
         <h3><i class="fas fa-tree"></i> Descripción</h3>
-        <p>Enredadera vigorosa con zarcillos, produce racimos de flores rosadas o blancas. Cubre pérgolas rápidamente.</p>
+        <p>Enredadera vigorosa, flores rosadas. Cubre pérgolas.</p>
       </div>
       <div class="fruit-section">
         <h3><i class="fas fa-apple-alt"></i> Fruto</h3>
-        <p>Aquenio pequeño, envuelto en el cáliz persistente. No es de interés culinario.</p>
+        <p>Aquenio pequeño no comestible.</p>
       </div>
       <div class="tree-img">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Antigonon_leptopus_vine.jpg/640px-Antigonon_leptopus_vine.jpg" alt="Enredadera coralina" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/Antigonon_leptopus_vine.jpg" alt="Enredadera coralina" onerror="this.src='https://images.pexels.com/photos/212324/pexels-photo-212324.jpeg?auto=compress&cs=tinysrgb&w=400'">
       </div>
     </div>
 
     <!-- 4. ALMENDRO TROPICAL -->
-    <div class="plant-card" data-aos="fade-up" data-aos-delay="200">
+    <div class="plant-card" data-aos="fade-up">
       <div class="card-title">Almendro Tropical</div>
       <div class="scientific-name"><i class="fas fa-tag"></i> Terminalia catappa</div>
       <div class="leaf-section">
         <div class="leaf-info">
           <h3><i class="fas fa-leaf"></i> Hoja</h3>
-          <p><strong>Forma:</strong> Obovada, grande, coriácea. <br> <strong>Razón:</strong> Hojas grandes para sombra; se tornan rojas antes de caer (antocianinas).</p>
+          <p><strong>Forma:</strong> Obovada, grande, coriácea.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://sweetgum.nybg.org/science/vh/images/irn/152/152223.jpg" alt="Hoja almendro" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Terminalia_catappa_leaf.jpg" alt="Hoja almendro" onerror="this.src='https://images.pexels.com/photos/109316/pexels-photo-109316.jpeg?auto=compress&cs=tinysrgb&w=200'">
         </div>
       </div>
       <div class="desc-section">
         <h3><i class="fas fa-tree"></i> Descripción</h3>
-        <p>Árbol de copa estratificada, caducifolio, muy usado en zonas costeras. Las hojas se usan en acuarios.</p>
+        <p>Árbol de copa estratificada, hojas caducas rojizas.</p>
       </div>
       <div class="fruit-section">
         <h3><i class="fas fa-apple-alt"></i> Fruto</h3>
-        <p>Drupa elipsoide con mesocarpio fibroso, almendra comestible de sabor similar a la nuez.</p>
+        <p>Drupa con almendra comestible.</p>
       </div>
       <div class="tree-img">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Terminalia_catappa_tree.jpg/640px-Terminalia_catappa_tree.jpg" alt="Almendro tropical" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Terminalia_catappa_tree.jpg" alt="Almendro tropical" onerror="this.src='https://images.pexels.com/photos/159807/pexels-photo-159807.jpeg?auto=compress&cs=tinysrgb&w=400'">
       </div>
     </div>
 
     <!-- 5. MURALLA / JAZMÍN NARANJA -->
-    <div class="plant-card" data-aos="fade-up" data-aos-delay="250">
-      <div class="card-title">Muralla / Jazmín Naranja</div>
+    <div class="plant-card" data-aos="fade-up">
+      <div class="card-title">Muralla</div>
       <div class="scientific-name"><i class="fas fa-tag"></i> Murraya paniculata</div>
       <div class="leaf-section">
         <div class="leaf-info">
           <h3><i class="fas fa-leaf"></i> Hoja</h3>
-          <p><strong>Forma:</strong> Compuesta, pinnada, folíolos ovados brillantes. <br> <strong>Razón:</strong> Disposición alterna para maximizar luz en setos densos.</p>
+          <p><strong>Forma:</strong> Compuesta pinnada, folíolos ovados.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://calphotos.berkeley.edu/imgs/128x192/0000_0000/0107/1106.jpeg" alt="Hoja muralla" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Murraya_paniculata_leaf.jpg" alt="Hoja muralla" onerror="this.src='https://images.pexels.com/photos/1322302/pexels-photo-1322302.jpeg?auto=compress&cs=tinysrgb&w=200'">
         </div>
       </div>
       <div class="desc-section">
         <h3><i class="fas fa-tree"></i> Descripción</h3>
-        <p>Arbusto perenne, muy aromático. Flores blancas con perfume a azahar. Ideal para cercos vivos.</p>
+        <p>Arbusto aromático, flores blancas con perfume a azahar.</p>
       </div>
       <div class="fruit-section">
         <h3><i class="fas fa-apple-alt"></i> Fruto</h3>
-        <p>Baya ovoide rojo-anaranjada, atractiva para aves, aunque no es comestible para humanos.</p>
+        <p>Baya rojo-anaranjada, atractiva para aves.</p>
       </div>
       <div class="tree-img">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Murraya_paniculata_tree.jpg/640px-Murraya_paniculata_tree.jpg" alt="Jazmín naranja" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Murraya_paniculata_tree.jpg" alt="Jazmín naranja" onerror="this.src='https://images.pexels.com/photos/1007657/pexels-photo-1007657.jpeg?auto=compress&cs=tinysrgb&w=400'">
       </div>
     </div>
 
     <!-- 6. FICUS BENJAMINA -->
-    <div class="plant-card" data-aos="fade-up" data-aos-delay="300">
+    <div class="plant-card" data-aos="fade-up">
       <div class="card-title">Ficus Benjamina</div>
       <div class="scientific-name"><i class="fas fa-tag"></i> Ficus benjamina</div>
       <div class="leaf-section">
         <div class="leaf-info">
           <h3><i class="fas fa-leaf"></i> Hoja</h3>
-          <p><strong>Forma:</strong> Ovado-elíptica, ápice acuminado, brillante. <br> <strong>Razón:</strong> Punta alargada (goteador) para escurrir agua en climas lluviosos.</p>
+          <p><strong>Forma:</strong> Ovado-elíptica, ápice acuminado.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://sweetgum.nybg.org/science/vh/images/irn/276/276117.jpg" alt="Hoja ficus" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Ficus_benjamina_leaf.jpg" alt="Hoja ficus" onerror="this.src='https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&w=200'">
         </div>
       </div>
       <div class="desc-section">
         <h3><i class="fas fa-tree"></i> Descripción</h3>
-        <p>Árbol perenne de copa llorona, muy usado en interiores y paisajismo. Raíces aéreas en climas húmedos.</p>
+        <p>Árbol perenne de copa llorona, raíces aéreas.</p>
       </div>
       <div class="fruit-section">
         <h3><i class="fas fa-apple-alt"></i> Fruto</h3>
-        <p>Sicono (higo) pequeño, rojizo, en pares. No comestible, pero importante para fauna.</p>
+        <p>Sicono rojizo, no comestible.</p>
       </div>
       <div class="tree-img">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Ficus_benjamina_tree.jpg/640px-Ficus_benjamina_tree.jpg" alt="Ficus benjamina" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Ficus_benjamina_tree.jpg" alt="Ficus benjamina" onerror="this.src='https://images.pexels.com/photos/161860/pexels-photo-161860.jpeg?auto=compress&cs=tinysrgb&w=400'">
       </div>
     </div>
 
-    <!-- 7. ÁRBOL DE GUAYABA -->
-    <div class="plant-card" data-aos="fade-up" data-aos-delay="350">
+    <!-- 7. GUAYABO -->
+    <div class="plant-card" data-aos="fade-up">
       <div class="card-title">Guayabo</div>
       <div class="scientific-name"><i class="fas fa-tag"></i> Psidium guajava</div>
       <div class="leaf-section">
         <div class="leaf-info">
           <h3><i class="fas fa-leaf"></i> Hoja</h3>
-          <p><strong>Forma:</strong> Elíptica, opuesta, nervaduras marcadas, aromática. <br> <strong>Razón:</strong> Aceites esenciales como defensa contra herbívoros.</p>
+          <p><strong>Forma:</strong> Elíptica, aromática, nervaduras marcadas.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Psidium_guajava_leaves_LR.jpg/640px-Psidium_guajava_leaves_LR.jpg" alt="Hoja guayaba" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Psidium_guajava_leaves_LR.jpg" alt="Hoja guayaba" onerror="this.src='https://images.pexels.com/photos/594608/pexels-photo-594608.jpeg?auto=compress&cs=tinysrgb&w=200'">
         </div>
       </div>
       <div class="desc-section">
         <h3><i class="fas fa-tree"></i> Descripción</h3>
-        <p>Árbol pequeño, corteza lisa que se desprende. Flores blancas con estambres vistosos.</p>
+        <p>Árbol pequeño, corteza lisa, flores blancas.</p>
       </div>
       <div class="fruit-section">
         <h3><i class="fas fa-apple-alt"></i> Fruto</h3>
-        <p>Baya globosa, cáscara verde-amarilla, pulpa dulce con muchas semillas. Alto contenido de vitamina C.</p>
+        <p>Baya globosa dulce, rica en vitamina C.</p>
       </div>
       <div class="tree-img">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Psidium_guajava_tree.jpg/640px-Psidium_guajava_tree.jpg" alt="Árbol de guayaba" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Psidium_guajava_tree.jpg" alt="Árbol de guayaba" onerror="this.src='https://images.pexels.com/photos/1676432/pexels-photo-1676432.jpeg?auto=compress&cs=tinysrgb&w=400'">
       </div>
     </div>
 
     <!-- 8. CORDYLINE FRUTICOSA -->
-    <div class="plant-card" data-aos="fade-up" data-aos-delay="400">
-      <div class="card-title">Cordyline / Ti</div>
+    <div class="plant-card" data-aos="fade-up">
+      <div class="card-title">Cordyline</div>
       <div class="scientific-name"><i class="fas fa-tag"></i> Cordyline fruticosa</div>
       <div class="leaf-section">
         <div class="leaf-info">
           <h3><i class="fas fa-leaf"></i> Hoja</h3>
-          <p><strong>Forma:</strong> Lanceolada, larga, color rojizo/variegado. <br> <strong>Razón:</strong> Pigmentación por antocianinas; adaptación a luz intensa.</p>
+          <p><strong>Forma:</strong> Lanceolada, color rojizo/variegado.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://www.morphbank.net/images/thumb/451/451256.jpg" alt="Hoja cordyline" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Cordyline_fruticosa_leaf.jpg" alt="Hoja cordyline" onerror="this.src='https://images.pexels.com/photos/1363876/pexels-photo-1363876.jpeg?auto=compress&cs=tinysrgb&w=200'">
         </div>
       </div>
       <div class="desc-section">
         <h3><i class="fas fa-tree"></i> Descripción</h3>
-        <p>Arbusto tropical de tallos delgados, hojas agrupadas en el ápice. Muy ornamental por su follaje.</p>
+        <p>Arbusto tropical de follaje ornamental muy vistoso.</p>
       </div>
       <div class="fruit-section">
         <h3><i class="fas fa-apple-alt"></i> Fruto</h3>
-        <p>Bayas rojas esféricas, raramente producidas en cultivo; atractivas para aves.</p>
+        <p>Bayas rojas esféricas, raras en cultivo.</p>
       </div>
       <div class="tree-img">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Cordyline_fruticosa_plant.jpg/640px-Cordyline_fruticosa_plant.jpg" alt="Cordyline fruticosa" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Cordyline_fruticosa_plant.jpg" alt="Cordyline fruticosa" onerror="this.src='https://images.pexels.com/photos/1458434/pexels-photo-1458434.jpeg?auto=compress&cs=tinysrgb&w=400'">
       </div>
     </div>
 
     <!-- 9. CASUARINA -->
-    <div class="plant-card" data-aos="fade-up" data-aos-delay="450">
+    <div class="plant-card" data-aos="fade-up">
       <div class="card-title">Casuarina</div>
       <div class="scientific-name"><i class="fas fa-tag"></i> Casuarina equisetifolia</div>
       <div class="leaf-section">
         <div class="leaf-info">
           <h3><i class="fas fa-leaf"></i> Hoja</h3>
-          <p><strong>Forma:</strong> Escamas diminutas en verticilos; las ramillas parecen agujas de pino. <br> <strong>Razón:</strong> Reducción foliar para evitar pérdida de agua en zonas costeras.</p>
+          <p><strong>Forma:</strong> Escamas diminutas, ramillas como agujas.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Branchlets_of_Casuarina_equisetifolia.pdf/page1-640px-Branchlets_of_Casuarina_equisetifolia.pdf.jpg" alt="Ramillas casuarina" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Casuarina_equisetifolia_branchlets.jpg" alt="Ramillas casuarina" onerror="this.src='https://images.pexels.com/photos/884549/pexels-photo-884549.jpeg?auto=compress&cs=tinysrgb&w=200'">
         </div>
       </div>
       <div class="desc-section">
         <h3><i class="fas fa-tree"></i> Descripción</h3>
-        <p>Árbol perennifolio de porte columnar, resistente a vientos salinos. Fija nitrógeno por simbiosis.</p>
+        <p>Árbol columnar resistente a vientos salinos.</p>
       </div>
       <div class="fruit-section">
         <h3><i class="fas fa-apple-alt"></i> Fruto</h3>
-        <p>Cono leñoso globoso, con pequeñas sámaras aladas. </p>
+        <p>Cono leñoso globoso con sámaras.</p>
       </div>
       <div class="tree-img">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Casuarina_equisetifolia_tree.jpg/640px-Casuarina_equisetifolia_tree.jpg" alt="Casuarina" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Casuarina_equisetifolia_tree.jpg" alt="Casuarina" onerror="this.src='https://images.pexels.com/photos/159398/pexels-photo-159398.jpeg?auto=compress&cs=tinysrgb&w=400'">
       </div>
     </div>
 
-    <!-- 10. FALSA ASHOKA / PINO HINDÚ -->
-    <div class="plant-card" data-aos="fade-up" data-aos-delay="500">
+    <!-- 10. FALSA ASHOKA -->
+    <div class="plant-card" data-aos="fade-up">
       <div class="card-title">Falsa Ashoka</div>
       <div class="scientific-name"><i class="fas fa-tag"></i> Polyalthia longifolia</div>
       <div class="leaf-section">
         <div class="leaf-info">
           <h3><i class="fas fa-leaf"></i> Hoja</h3>
-          <p><strong>Forma:</strong> Largas, lanceoladas, borde ondulado, brillantes. <br> <strong>Razón:</strong> Forma colgante para reducir calor y autosombra.</p>
+          <p><strong>Forma:</strong> Largas, lanceoladas, borde ondulado.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://www.biolib.cz/IMG/GAL/BIG/29354.jpg" alt="Hoja falsa ashoka" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Polyalthia_longifolia_leaf.jpg" alt="Hoja falsa ashoka" onerror="this.src='https://images.pexels.com/photos/115082/pexels-photo-115082.jpeg?auto=compress&cs=tinysrgb&w=200'">
         </div>
       </div>
       <div class="desc-section">
         <h3><i class="fas fa-tree"></i> Descripción</h3>
-        <p>Árbol columnar, de rápido crecimiento, muy usado en alineaciones. Copa piramidal estrecha.</p>
+        <p>Árbol columnar, copa piramidal estrecha.</p>
       </div>
       <div class="fruit-section">
         <h3><i class="fas fa-apple-alt"></i> Fruto</h3>
-        <p>Bayas ovoides verdes a púrpura oscuro, dispuestas en racimos. </p>
+        <p>Bayas ovoides verdes a púrpura.</p>
       </div>
       <div class="tree-img">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Polyalthia_longifolia_tree.jpg/640px-Polyalthia_longifolia_tree.jpg" alt="Pino hindú" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Polyalthia_longifolia_tree.jpg" alt="Pino hindú" onerror="this.src='https://images.pexels.com/photos/164024/pexels-photo-164024.jpeg?auto=compress&cs=tinysrgb&w=400'">
       </div>
     </div>
 
     <!-- 11. ZACATE MORADO -->
-    <div class="plant-card" data-aos="fade-up" data-aos-delay="550">
+    <div class="plant-card" data-aos="fade-up">
       <div class="card-title">Zacate Morado</div>
       <div class="scientific-name"><i class="fas fa-tag"></i> Pennisetum setaceum 'Rubrum'</div>
       <div class="leaf-section">
         <div class="leaf-info">
           <h3><i class="fas fa-leaf"></i> Hoja</h3>
-          <p><strong>Forma:</strong> Lineal, estrecha, color púrpura intenso. <br> <strong>Razón:</strong> Pigmentación para protección UV en ambientes abiertos.</p>
+          <p><strong>Forma:</strong> Lineal, púrpura intenso.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://c1.alamy.com/thumbs/2AN0CMW/pennisetum-setaceum-rubrum-violet-herbe-fontaine-2AN0CMW.jpg" alt="Zacate morado" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Pennisetum_setaceum_Rubrum_leaf.jpg" alt="Zacate morado" onerror="this.src='https://images.pexels.com/photos/145933/pexels-photo-145933.jpeg?auto=compress&cs=tinysrgb&w=200'">
         </div>
       </div>
       <div class="desc-section">
         <h3><i class="fas fa-tree"></i> Descripción</h3>
-        <p>Gramínea ornamental, forma macollas densas. Inflorescencias en espigas suaves color rosado-púrpura.</p>
+        <p>Gramínea ornamental, espigas rosado-púrpura.</p>
       </div>
       <div class="fruit-section">
         <h3><i class="fas fa-apple-alt"></i> Fruto</h3>
-        <p>Cariópside (semilla) en la espiga, poco vistosa; se propaga por división.</p>
+        <p>Cariópside, se propaga por división.</p>
       </div>
       <div class="tree-img">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Pennisetum_setaceum_Rubrum_plant.jpg/640px-Pennisetum_setaceum_Rubrum_plant.jpg" alt="Pennisetum morado" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Pennisetum_setaceum_Rubrum_plant.jpg" alt="Pennisetum morado" onerror="this.src='https://images.pexels.com/photos/220131/pexels-photo-220131.jpeg?auto=compress&cs=tinysrgb&w=400'">
       </div>
     </div>
 
-    <!-- 12. PLANTA VERANERA (Bougainvillea) -->
-    <div class="plant-card" data-aos="fade-up" data-aos-delay="600">
-      <div class="card-title">Veranera / Buganvilia</div>
+    <!-- 12. VERANERA -->
+    <div class="plant-card" data-aos="fade-up">
+      <div class="card-title">Veranera</div>
       <div class="scientific-name"><i class="fas fa-tag"></i> Bougainvillea glabra</div>
       <div class="leaf-section">
         <div class="leaf-info">
           <h3><i class="fas fa-leaf"></i> Hoja</h3>
-          <p><strong>Forma:</strong> Ovada, ápice agudo, verde brillante. <br> <strong>Razón:</strong> Hojas pequeñas en zonas secas; brácteas coloridas para atraer polinizadores.</p>
+          <p><strong>Forma:</strong> Ovada, ápice agudo, verde brillante.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://ninos.kiddle.co/images/thumb/9/91/Bougainvillea_glabra.JPG/320px-Bougainvillea_glabra.JPG" alt="Hoja veranera" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Bougainvillea_glabra_leaf.jpg" alt="Hoja veranera" onerror="this.src='https://images.pexels.com/photos/459282/pexels-photo-459282.jpeg?auto=compress&cs=tinysrgb&w=200'">
         </div>
       </div>
       <div class="desc-section">
         <h3><i class="fas fa-tree"></i> Descripción</h3>
-        <p>Arbusto trepador espinoso, famoso por sus brácteas magenta, naranja o blancas. Muy resistente a sequía.</p>
+        <p>Arbusto trepador espinoso, brácteas coloridas.</p>
       </div>
       <div class="fruit-section">
         <h3><i class="fas fa-apple-alt"></i> Fruto</h3>
-        <p>Aquenio alargado, seco, rodeado por el perianto persistente. </p>
+        <p>Aquenio seco.</p>
       </div>
       <div class="tree-img">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Bougainvillea_glabra_plant.jpg/640px-Bougainvillea_glabra_plant.jpg" alt="Buganvilia" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Bougainvillea_glabra_plant.jpg" alt="Buganvilia" onerror="this.src='https://images.pexels.com/photos/931177/pexels-photo-931177.jpeg?auto=compress&cs=tinysrgb&w=400'">
       </div>
     </div>
 
     <!-- 13. PINO -->
-    <div class="plant-card" data-aos="fade-up" data-aos-delay="650">
+    <div class="plant-card" data-aos="fade-up">
       <div class="card-title">Pino</div>
       <div class="scientific-name"><i class="fas fa-tag"></i> Pinus spp.</div>
       <div class="leaf-section">
         <div class="leaf-info">
           <h3><i class="fas fa-leaf"></i> Hoja (acícula)</h3>
-          <p><strong>Forma:</strong> Acicular, en fascículos. <br> <strong>Razón:</strong> Reduce superficie transpirante, adaptada a climas fríos/secos.</p>
+          <p><strong>Forma:</strong> Acicular, en fascículos.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://stri.discoverlife.org/MP/20q?img=JPG&path=I_TN/USGA/USGA/USGA36109.jpg&res=320x240" alt="Acículas de pino" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Pinus_cembra_leaves.jpg" alt="Acículas de pino" onerror="this.src='https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=200'">
         </div>
       </div>
       <div class="desc-section">
         <h3><i class="fas fa-tree"></i> Descripción</h3>
-        <p>Árbol perennifolio, resinoso, de gran longevidad. Madera valiosa, forma bosques.</p>
+        <p>Árbol perennifolio, resinoso, de gran longevidad.</p>
       </div>
       <div class="fruit-section">
         <h3><i class="fas fa-apple-alt"></i> Fruto (cono)</h3>
-        <p>Estróbilo leñoso (piña), con semillas aladas (piñones) en algunas especies.</p>
+        <p>Estróbilo leñoso (piña), semillas aladas.</p>
       </div>
       <div class="tree-img">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Pinus_tree.jpg/640px-Pinus_tree.jpg" alt="Pino" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Pinus_tree.jpg" alt="Pino" onerror="this.src='https://images.pexels.com/photos/1061623/pexels-photo-1061623.jpeg?auto=compress&cs=tinysrgb&w=400'">
       </div>
     </div>
   </div>
   
-  <div class="footer-note" data-aos="fade" data-aos-delay="800">
-    <i class="fas fa-feather-alt"></i> Herbario digital · elegancia botánica · todas las imágenes son representativas <i class="fas fa-feather-alt"></i>
+  <div class="footer-note" data-aos="fade">
+    <i class="fas fa-feather-alt"></i> Herbario digital · elegancia botánica <i class="fas fa-feather-alt"></i>
   </div>
 </div>
 
-<!-- Scripts AOS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 <script>
-  AOS.init({
-    duration: 900,
-    once: false,
-    mirror: false,
-    offset: 40,
-    easing: 'ease-out-cubic'
-  });
+  AOS.init({ duration: 900, once: false, offset: 40, easing: 'ease-out-cubic' });
 </script>
 </body>
 </html>
