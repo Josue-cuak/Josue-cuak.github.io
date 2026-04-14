@@ -224,7 +224,6 @@
       transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
     }
 
-    /* Personalización de imágenes: semilla = consistencia */
     .img-caption {
       font-size: 0.7rem;
       text-align: right;
@@ -265,7 +264,7 @@
           <p><strong>Forma:</strong> Bilobulada, hendidura central. <br> <strong>Razón:</strong> Reduce resistencia al viento y maximiza captación de luz en claros. </p>
         </div>
         <div class="leaf-img">
-          <img src="https://picsum.photos/seed/bauhinia-leaf/200/200" alt="Hoja pata de vaca" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Bauhinia_variegata_leaf.jpg/640px-Bauhinia_variegata_leaf.jpg" alt="Hoja pata de vaca" loading="lazy">
         </div>
       </div>
       <div class="desc-section">
@@ -277,7 +276,7 @@
         <p>Legumbre alargada, aplanada, de color marrón, con varias semillas. No es comestible.</p>
       </div>
       <div class="tree-img">
-        <img src="https://picsum.photos/seed/bauhinia-tree/400/220" alt="Árbol orquídea" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bauhinia_variegata_tree.jpg/640px-Bauhinia_variegata_tree.jpg" alt="Árbol orquídea" loading="lazy">
         <div class="img-caption"><i class="fas fa-camera"></i> Bauhinia variegata</div>
       </div>
     </div>
@@ -292,7 +291,7 @@
           <p><strong>Forma:</strong> Elíptica a ovada, nervaduras rojizas. <br> <strong>Razón:</strong> Coloración por antocianinas para protección solar y atraer polinizadores.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://picsum.photos/seed/hamelia-leaf/200/200" alt="Hoja coralillo" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Hamelia_patens_leaf.jpg/640px-Hamelia_patens_leaf.jpg" alt="Hoja coralillo" loading="lazy">
         </div>
       </div>
       <div class="desc-section">
@@ -304,7 +303,7 @@
         <p>Bayas pequeñas que pasan de rojo a negro, jugosas, alimento de aves. </p>
       </div>
       <div class="tree-img">
-        <img src="https://picsum.photos/seed/hamelia-tree/400/220" alt="Coralillo arbusto" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Hamelia_patens_plant.jpg/640px-Hamelia_patens_plant.jpg" alt="Coralillo arbusto" loading="lazy">
       </div>
     </div>
 
@@ -318,7 +317,7 @@
           <p><strong>Forma:</strong> Acorazonada (cordiforme), margen ondulado. <br> <strong>Razón:</strong> La forma acorazonada optimiza la captación de luz en trepadoras.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://picsum.photos/seed/antigonon-leaf/200/200" alt="Hoja coralina" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Antigonon_leptopus1.JPG/640px-Antigonon_leptopus1.JPG" alt="Hoja coralina" loading="lazy">
         </div>
       </div>
       <div class="desc-section">
@@ -330,7 +329,7 @@
         <p>Aquenio pequeño, envuelto en el cáliz persistente. No es de interés culinario.</p>
       </div>
       <div class="tree-img">
-        <img src="https://picsum.photos/seed/antigonon-tree/400/220" alt="Enredadera coralina" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Antigonon_leptopus_vine.jpg/640px-Antigonon_leptopus_vine.jpg" alt="Enredadera coralina" loading="lazy">
       </div>
     </div>
 
@@ -344,7 +343,7 @@
           <p><strong>Forma:</strong> Obovada, grande, coriácea. <br> <strong>Razón:</strong> Hojas grandes para sombra; se tornan rojas antes de caer (antocianinas).</p>
         </div>
         <div class="leaf-img">
-          <img src="https://picsum.photos/seed/terminalia-leaf/200/200" alt="Hoja almendro" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Terminalia_catappa_leaf.jpg/640px-Terminalia_catappa_leaf.jpg" alt="Hoja almendro" loading="lazy">
         </div>
       </div>
       <div class="desc-section">
@@ -356,7 +355,7 @@
         <p>Drupa elipsoide con mesocarpio fibroso, almendra comestible de sabor similar a la nuez.</p>
       </div>
       <div class="tree-img">
-        <img src="https://picsum.photos/seed/terminalia-tree/400/220" alt="Almendro tropical" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Terminalia_catappa_tree.jpg/640px-Terminalia_catappa_tree.jpg" alt="Almendro tropical" loading="lazy">
       </div>
     </div>
 
@@ -370,7 +369,7 @@
           <p><strong>Forma:</strong> Compuesta, pinnada, folíolos ovados brillantes. <br> <strong>Razón:</strong> Disposición alterna para maximizar luz en setos densos.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://picsum.photos/seed/murraya-leaf/200/200" alt="Hoja muralla" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Murraya_paniculata_leaf.jpg/640px-Murraya_paniculata_leaf.jpg" alt="Hoja muralla" loading="lazy">
         </div>
       </div>
       <div class="desc-section">
@@ -382,7 +381,7 @@
         <p>Baya ovoide rojo-anaranjada, atractiva para aves, aunque no es comestible para humanos.</p>
       </div>
       <div class="tree-img">
-        <img src="https://picsum.photos/seed/murraya-tree/400/220" alt="Jazmín naranja" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Murraya_paniculata_tree.jpg/640px-Murraya_paniculata_tree.jpg" alt="Jazmín naranja" loading="lazy">
       </div>
     </div>
 
@@ -396,7 +395,7 @@
           <p><strong>Forma:</strong> Ovado-elíptica, ápice acuminado, brillante. <br> <strong>Razón:</strong> Punta alargada (goteador) para escurrir agua en climas lluviosos.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://picsum.photos/seed/ficusben-leaf/200/200" alt="Hoja ficus" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Ficus_benjamina_leaf.jpg/640px-Ficus_benjamina_leaf.jpg" alt="Hoja ficus" loading="lazy">
         </div>
       </div>
       <div class="desc-section">
@@ -408,7 +407,7 @@
         <p>Sicono (higo) pequeño, rojizo, en pares. No comestible, pero importante para fauna.</p>
       </div>
       <div class="tree-img">
-        <img src="https://picsum.photos/seed/ficus-tree/400/220" alt="Ficus benjamina" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Ficus_benjamina_tree.jpg/640px-Ficus_benjamina_tree.jpg" alt="Ficus benjamina" loading="lazy">
       </div>
     </div>
 
@@ -422,7 +421,7 @@
           <p><strong>Forma:</strong> Elíptica, opuesta, nervaduras marcadas, aromática. <br> <strong>Razón:</strong> Aceites esenciales como defensa contra herbívoros.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://picsum.photos/seed/guayaba-leaf/200/200" alt="Hoja guayaba" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Psidium_guajava_leaf.jpg/640px-Psidium_guajava_leaf.jpg" alt="Hoja guayaba" loading="lazy">
         </div>
       </div>
       <div class="desc-section">
@@ -434,7 +433,7 @@
         <p>Baya globosa, cáscara verde-amarilla, pulpa dulce con muchas semillas. Alto contenido de vitamina C.</p>
       </div>
       <div class="tree-img">
-        <img src="https://picsum.photos/seed/guayaba-tree/400/220" alt="Árbol de guayaba" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Psidium_guajava_tree.jpg/640px-Psidium_guajava_tree.jpg" alt="Árbol de guayaba" loading="lazy">
       </div>
     </div>
 
@@ -448,7 +447,7 @@
           <p><strong>Forma:</strong> Lanceolada, larga, color rojizo/variegado. <br> <strong>Razón:</strong> Pigmentación por antocianinas; adaptación a luz intensa.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://picsum.photos/seed/cordyline-leaf/200/200" alt="Hoja cordyline" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Cordyline_fruticosa_leaf.jpg/640px-Cordyline_fruticosa_leaf.jpg" alt="Hoja cordyline" loading="lazy">
         </div>
       </div>
       <div class="desc-section">
@@ -460,7 +459,7 @@
         <p>Bayas rojas esféricas, raramente producidas en cultivo; atractivas para aves.</p>
       </div>
       <div class="tree-img">
-        <img src="https://picsum.photos/seed/cordyline-tree/400/220" alt="Cordyline fruticosa" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Cordyline_fruticosa_plant.jpg/640px-Cordyline_fruticosa_plant.jpg" alt="Cordyline fruticosa" loading="lazy">
       </div>
     </div>
 
@@ -474,7 +473,7 @@
           <p><strong>Forma:</strong> Escamas diminutas en verticilos; las ramillas parecen agujas de pino. <br> <strong>Razón:</strong> Reducción foliar para evitar pérdida de agua en zonas costeras.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://picsum.photos/seed/casuarina-leaf/200/200" alt="Ramillas casuarina" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Casuarina_equisetifolia_branchlets.jpg/640px-Casuarina_equisetifolia_branchlets.jpg" alt="Ramillas casuarina" loading="lazy">
         </div>
       </div>
       <div class="desc-section">
@@ -486,7 +485,7 @@
         <p>Cono leñoso globoso, con pequeñas sámaras aladas. </p>
       </div>
       <div class="tree-img">
-        <img src="https://picsum.photos/seed/casuarina-tree/400/220" alt="Casuarina" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Casuarina_equisetifolia_tree.jpg/640px-Casuarina_equisetifolia_tree.jpg" alt="Casuarina" loading="lazy">
       </div>
     </div>
 
@@ -500,7 +499,7 @@
           <p><strong>Forma:</strong> Largas, lanceoladas, borde ondulado, brillantes. <br> <strong>Razón:</strong> Forma colgante para reducir calor y autosombra.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://picsum.photos/seed/polyalthia-leaf/200/200" alt="Hoja falsa ashoka" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Polyalthia_longifolia_leaf.jpg/640px-Polyalthia_longifolia_leaf.jpg" alt="Hoja falsa ashoka" loading="lazy">
         </div>
       </div>
       <div class="desc-section">
@@ -512,7 +511,7 @@
         <p>Bayas ovoides verdes a púrpura oscuro, dispuestas en racimos. </p>
       </div>
       <div class="tree-img">
-        <img src="https://picsum.photos/seed/polyalthia-tree/400/220" alt="Pino hindú" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Polyalthia_longifolia_tree.jpg/640px-Polyalthia_longifolia_tree.jpg" alt="Pino hindú" loading="lazy">
       </div>
     </div>
 
@@ -526,7 +525,7 @@
           <p><strong>Forma:</strong> Lineal, estrecha, color púrpura intenso. <br> <strong>Razón:</strong> Pigmentación para protección UV en ambientes abiertos.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://picsum.photos/seed/pennisetum-leaf/200/200" alt="Zacate morado" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Pennisetum_setaceum_Rubrum_leaf.jpg/640px-Pennisetum_setaceum_Rubrum_leaf.jpg" alt="Zacate morado" loading="lazy">
         </div>
       </div>
       <div class="desc-section">
@@ -538,7 +537,7 @@
         <p>Cariópside (semilla) en la espiga, poco vistosa; se propaga por división.</p>
       </div>
       <div class="tree-img">
-        <img src="https://picsum.photos/seed/pennisetum-plant/400/220" alt="Pennisetum morado" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Pennisetum_setaceum_Rubrum_plant.jpg/640px-Pennisetum_setaceum_Rubrum_plant.jpg" alt="Pennisetum morado" loading="lazy">
       </div>
     </div>
 
@@ -552,7 +551,7 @@
           <p><strong>Forma:</strong> Ovada, ápice agudo, verde brillante. <br> <strong>Razón:</strong> Hojas pequeñas en zonas secas; brácteas coloridas para atraer polinizadores.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://picsum.photos/seed/bougainvillea-leaf/200/200" alt="Hoja veranera" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Bougainvillea_glabra_leaf.jpg/640px-Bougainvillea_glabra_leaf.jpg" alt="Hoja veranera" loading="lazy">
         </div>
       </div>
       <div class="desc-section">
@@ -564,7 +563,7 @@
         <p>Aquenio alargado, seco, rodeado por el perianto persistente. </p>
       </div>
       <div class="tree-img">
-        <img src="https://picsum.photos/seed/bougainvillea-plant/400/220" alt="Buganvilia" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Bougainvillea_glabra_plant.jpg/640px-Bougainvillea_glabra_plant.jpg" alt="Buganvilia" loading="lazy">
       </div>
     </div>
 
@@ -578,7 +577,7 @@
           <p><strong>Forma:</strong> Acicular, en fascículos. <br> <strong>Razón:</strong> Reduce superficie transpirante, adaptada a climas fríos/secos.</p>
         </div>
         <div class="leaf-img">
-          <img src="https://picsum.photos/seed/pinus-leaf/200/200" alt="Acículas de pino" loading="lazy">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Pinus_cembra_leaves.jpg/640px-Pinus_cembra_leaves.jpg" alt="Acículas de pino" loading="lazy">
         </div>
       </div>
       <div class="desc-section">
@@ -590,7 +589,7 @@
         <p>Estróbilo leñoso (piña), con semillas aladas (piñones) en algunas especies.</p>
       </div>
       <div class="tree-img">
-        <img src="https://picsum.photos/seed/pinus-tree/400/220" alt="Pino" loading="lazy">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Pinus_tree.jpg/640px-Pinus_tree.jpg" alt="Pino" loading="lazy">
       </div>
     </div>
   </div>
@@ -611,6 +610,5 @@
     easing: 'ease-out-cubic'
   });
 </script>
-<!-- Pequeño refinamiento para imágenes (opcional) -->
 </body>
 </html>
